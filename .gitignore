@@ -2,3 +2,5 @@
 
 venv/
 .venv/
+
+.chroma_db/
