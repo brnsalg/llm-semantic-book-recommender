@@ -1,6 +1,26 @@
-.DS_Store/
+# macOS
+.DS_Store
 
-venv/
+# Python virtual environments
 .venv/
+venv/
+env/
 
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local Chroma vector database
+chroma_db/
 .chroma_db/
