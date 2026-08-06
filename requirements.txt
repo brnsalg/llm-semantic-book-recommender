@@ -6,6 +6,7 @@ seaborn==0.13.2
 
 # Notebook environment
 jupyterlab==4.6.2
+python-dotenv==1.2.2
 
 # Semantic search
 langchain-core==1.5.3
@@ -16,3 +17,6 @@ tqdm==4.70.0
 # Zero-shot classification
 torch==2.13.0
 transformers==5.14.1
+
+# Web interface
+gradio==6.22.0
