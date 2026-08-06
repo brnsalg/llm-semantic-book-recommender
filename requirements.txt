@@ -12,3 +12,7 @@ langchain-core==1.5.3
 langchain-ollama==1.1.0
 langchain-chroma==1.1.0
 tqdm==4.70.0
+
+# Zero-shot classification
+torch==2.13.0
+transformers==5.14.1
